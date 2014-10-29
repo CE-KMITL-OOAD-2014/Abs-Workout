@@ -33,4 +33,9 @@
 		"preferred-install": "dist"
 	},
 	"minimum-stability": "stable"
+	 { "require": {
+    "cartalyst/sentry": "2.0.*",
+    },
+    "minimum-stability": "stable"
+ }
 }

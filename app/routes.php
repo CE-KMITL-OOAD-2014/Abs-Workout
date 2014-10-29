@@ -11,7 +11,10 @@
 |
 */
 
-Route::get('/', function()
-{
-	return View::make('hello');
+Route::get('/', function(){	
+	return View::make('signin');
 });
+Route::get('signup', function(){	
+	return View::make('register');
+});
+Route::post('registered','MemberController@register');
